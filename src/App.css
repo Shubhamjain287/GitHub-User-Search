@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.navbar{
+    display: flex;
+    justify-content: space-between;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.SJ{
+    margin-top: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Heading{
+    color: white;   
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 31%, rgba(45,64,179,1) 61%, rgba(37,118,193,1) 68%, rgba(28,141,208,1) 76%, rgba(24,150,214,1) 79%, rgba(15,174,230,1) 87%, rgba(0,212,255,1) 100%);
+    padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form input{
+    padding: 8px;
+    width: 19rem;
+    border-radius: 5px;
+    margin: 10px 0px;
 }
-
-.App-link {
-  color: #61dafb;
+.form button{
+    padding: 7px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500
+    ;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 31%, rgba(45,64,179,1) 61%, rgba(37,118,193,1) 68%, rgba(28,141,208,1) 76%, rgba(24,150,214,1) 79%, rgba(15,174,230,1) 87%, rgba(0,212,255,1) 100%);
 }
+.compo{
+    margin: 2rem 0;
+}
+.profile-info button{
+    margin: 0.5rem 5px;
+} 
+.GitHubProfile a{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 31%, rgba(45,64,179,1) 61%, rgba(37,118,193,1) 68%, rgba(28,141,208,1) 76%, rgba(24,150,214,1) 79%, rgba(15,174,230,1) 87%, rgba(0,212,255,1) 100%);
+}
+.GitHubInfo{
+    margin: 0.5rem 0;
+}
+.SJain li{
+    font-weight: 500;
+}
+.RepoInfo{
+        margin: 2rem 0rem;
+}
+.Repos button{
+    margin: 0.5rem;
+    margin-left: 5rem;
+}
+.Repos .button{
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 31%, rgba(45,64,179,1) 61%, rgba(37,118,193,1) 68%, rgba(28,141,208,1) 76%, rgba(24,150,214,1) 79%, rgba(15,174,230,1) 87%, rgba(0,212,255,1) 100%);
+}
+.Repos .button a:hover{
+    color: white;
+}
+.Repos li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight:bolder
+}
+.footer h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+.footer h3 span{
+    color: cyan;
+}
+.footer i{
+    background: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+.footer i:hover{
+    background:yellow;
+    color: black;
 }
